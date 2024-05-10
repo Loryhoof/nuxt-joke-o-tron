@@ -38,7 +38,7 @@
     <div class="flex flex-col h-screen items-center justify-center">
         <div class="md:w-[480px]">
             <h1 class="text-center font-bold text-5xl mb-12">
-                Joker-o-tron
+                Joke-o-tron
             </h1>
             <div v-if="!objectToShow">
                 <input v-model="inputRef" class="border rounded-lg w-full p-4 mb-4" type="text" placeholder="A joke about..."></input>
