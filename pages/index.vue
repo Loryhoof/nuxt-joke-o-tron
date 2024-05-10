@@ -1,10 +1,6 @@
 
 <script setup lang="ts">
 
-    useHead({
-        title: "Joke-O-Tron"
-    })
-
     const inputRef = ref("")
     const isLoading = ref(false)
 

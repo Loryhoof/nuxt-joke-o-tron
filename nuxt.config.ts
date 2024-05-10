@@ -7,5 +7,15 @@ export default defineNuxtConfig({
     }
   },
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "nuxt-icon"]
+  modules: ["@nuxtjs/tailwindcss", "nuxt-icon"],
+  app: {
+    head: {
+      title: "Joke-O-Tron",
+      meta: [
+        {
+          name: 'description', content: "Generate a funny joke"
+        }
+      ]
+    }
+  }
 })
