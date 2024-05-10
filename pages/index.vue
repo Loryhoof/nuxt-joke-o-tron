@@ -1,12 +1,16 @@
 
-<script setup>
+<script setup lang="ts">
+
+    useHead({
+        title: "Joke-O-Tron"
+    })
 
     const inputRef = ref("")
     const isLoading = ref(false)
 
     const objectToShow = ref("")
 
-    const handleSubmit = async (val) => {
+    const handleSubmit = async (val: string) => {
 
         isLoading.value = true
 
